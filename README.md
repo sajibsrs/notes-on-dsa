@@ -3,7 +3,7 @@ Exploring data structure and algorithm in python language. But the main concept 
 
 ## Topics
 
-### [Data stuctures](./data-structures/data-structures.md)
+### [Data structures](./data-structures/data-structures.md)
   - [Array](./data-structures/array.md)
   - [Set](./data-structures/set.md)
   - Hash table
