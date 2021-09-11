@@ -12,19 +12,19 @@ The `index` of an _array item_ is, it's position in the array expressed in numbe
 
 > Last item index in an array is always ( `n - 1` ). Where the size of array is `n` _( n represents any integer )_. As array index starts with `0`.
 
-## Required steps for specific operation on an array.
+## Required steps for specific operation on an array
 
 ### Reading
-> #### Required step = 1. Item in any position.
+> #### Required step = 1. Item in any position
 
 ### Searching
-> #### Required steps best = 1, when it's the first item.
-> #### Required steps worst = n, when it's the last item.
+> #### Required steps best = 1, when it's the first item
+> #### Required steps worst = n, when it's the last item
 
 ### Insertion
-> #### Required steps best = 1, when it's the last item.
-> #### Required steps worst = n + 1, when it's the first item.
+> #### Required steps best = 1, when it's the last item
+> #### Required steps worst = n + 1, when it's the first item
 
 ### Deletetion
-> #### Required steps best = 1, when it's the last item.
-> #### Required steps worst = n, when it's the first item.
+> #### Required steps best = 1, when it's the last item
+> #### Required steps worst = n, when it's the first item
