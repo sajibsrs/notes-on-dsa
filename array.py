@@ -6,14 +6,14 @@ array = ["apples", "bananas", "cucumbers", "dates", "elderberries"]
 
 # Search
 # -- Linear search
-# ---- N steps
+# ---- Best 1 and worst N steps
 
 # Insert
-# -- At the end 1 step
-# -- N + 1 steps
+# -- At the end best 1 step
+# -- At the beginnig worst N + 1 steps
 
 # Delete
-# -- N steps
+# -- Best 1 step and worst N steps
 
 # Set
 # -- Insert
