@@ -1,5 +1,5 @@
 # Data stcuture and algorithm in python
-Exploring data structure and algorithm in python language. But the main concept of this, is language independent.
+Exploring data structure and algorithm in python language. But the main concept of the topics are language independent.
 
 ## Topics
 
