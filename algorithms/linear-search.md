@@ -5,13 +5,16 @@ __Linear search__ is the simplest way of searching for something inside a _colle
 
 ```python
 # linear seach example
+
 animals = ["dog", "cat", "cow", "goat", "sheep"]
+
 
 def linear_search(array, value):
     for item in array:
         if item == value:
             return array.index(item) # return the index of the item
     return False # return False if item not found
+
 
 print(linear_search(animals, "cow"))
 ```
