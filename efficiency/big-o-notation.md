@@ -4,7 +4,7 @@ Big O notation is a fancy term to determine the efficiency of algorithms. If an 
 
 > Any algorithm that has efficiency of O(1) is the fastest.
 
-## Comparison
+## Little in-depth
 > Big O notation simply describes not the number of steps an algorithm has, but how the steps increases as the data change.
 
 If an algorithm always takes 2 steps, even if the data increases. The efficiency is always O(1) not O(2). After a certain amount data O(1) algorithm is always efficient than O(N).
@@ -15,8 +15,23 @@ For 100 data, if an O(1) algorithm takes 10 steps and O(N) takes 5 steps. For a 
 
 It describes exactly how inefficient an algorithm can get in a worst case scenario and helps to choose the right one.
 
-## Time complexity
-An algorithm like binary search can't be described as O(1), neither O(N), as it takes much less steps than it's data count.
+## Big O and logarithm
+An algorithm like binary search can't be described neither O(1) nor O(N), as it takes much less steps than it's data count. The worst case scenario for a binary search algorithm is 7 steps for 100 elements.
 
-> The worst case scenario for a binary search algorithm is 7 steps for 100 elements.
+In Big O terms, this situation described as having time complexity of O(log N). Pronounce as "Oh of log N".
 
+An algorithm that increases one step each time the data is doubled is O(log N) in term of Big O.
+
+> Logarithm is the inverse function to exponentiation and we are using binary logarithm here.
+
+$log{_2}{8}$ = 3 
+
+As we are working with binary logarithm, the base is 2. The above statement means. How many time we have to multiply 2 (base is 2) to itself in order to get 8. The answer is 3.
+
+So, if we have an array of 8 items, the worst case scenario to find an item will be 3.
+
+## Summery
+### Different Big O time complexities
+1. O(1)
+2. O(N)
+3. O(log N)
