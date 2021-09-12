@@ -22,13 +22,13 @@ In Big O terms, this situation described as having time complexity of O(log N). 
 
 An algorithm that increases one step each time the data is doubled is O(log N) in term of Big O.
 
-> Logarithm is the inverse function to exponentiation and we are using binary logarithm here.
+> Logarithm is the inverse function to exponentiation.
 
-$log{_2}{8}$ = 3 
+log<sub>2</sub> 8 = 3
 
 As we are working with binary logarithm, the base is 2. The above statement means. How many time we have to multiply 2 (base is 2) to itself in order to get 8. The answer is 3.
 
-So, if we have an array of 8 items, the worst case scenario to find an item will be 3.
+So, if we have an array of 8 items, the worst case scenario to find an item will be `2 x 2 x 2 = 8`. It will be 3 steps as we had to multiply 2 to itself 3 times.
 
 ## Summery
 ### Different Big O time complexities
