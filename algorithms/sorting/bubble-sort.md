@@ -40,14 +40,14 @@ For the worst case, swaps count would be 10 for an array with 5 elements. That i
 
 If we make a growth table with different data count for bubble sort, then the results would be:
 
-| Data count N | Number of steps | N <sup>2</sup> |
-| ------------ | --------------- | -------------- |
-| 5            | 20              | 25             |
-| 10           | 90              | 100            |
-| 20           | 380             | 400            |
-| 30           | 870             | 900            |
-| 40           | 1560            | 1600           |
-| 50           | 2450            | 2500           |
+| Data count N | Number of steps | N<sup>2</sup> |
+| ------------ | --------------- | ------------- |
+| 5            | 20              | 25            |
+| 10           | 90              | 100           |
+| 20           | 380             | 400           |
+| 30           | 870             | 900           |
+| 40           | 1560            | 1600          |
+| 50           | 2450            | 2500          |
 
 As we can see from the growth table the growth of steps as number of data N increases. It's approximately by N<sup>2</sup> for N data.
 
