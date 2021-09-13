@@ -1,6 +1,10 @@
 # Bubble sort
 >// TODO: add bubble sort intro
 
+## How it works
+>// TODO: add graphical explanation
+
+## Code example
 ```python
 # bubble sort example in python
 
