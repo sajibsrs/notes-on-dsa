@@ -32,11 +32,9 @@ For N number of elements that is:
 
 (N - 1) + (N - 2) + (N - 3) ... + 1 comparisons
 
-As we got the comparisons count for the bubble sort. Let's look at the number of swaps we need. For the worst case scenario we'd need swaps for every comparison, when the array component orders are exactly the opposite of what we need.
+As we got the comparisons count for the bubble sort. Let's look at the number of swaps we need. For the worst case scenario we'd need swaps for every comparison, when the array component orders are exactly the opposite of a sorted array.
 
-Now, for the worst case, swaps count would be 10 for an array with 5 elements. That is same as the swap count.
-
-So, the total steps for bubble sort would be:
+For the worst case, swaps count would be 10 for an array with 5 elements. That is same as the swap count. So, the total steps for bubble sort would be:
 
 10 comparisons + 10 swaps = 20 steps for a 5 items array.
 
