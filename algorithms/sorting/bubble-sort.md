@@ -1,5 +1,5 @@
 # Bubble sort
->// TODO: add bubble sort intro
+>// TODO: add intro
 
 ## How it works
 >// TODO: add graphical explanation
@@ -53,6 +53,4 @@ If we make a growth table with different data count for bubble sort, then the re
 |      40      |      1560       |     1600      |
 |      50      |      2450       |     2500      |
 
-As we can see from the growth table the growth of steps as number of data N increases. It's approximately by N<sup>2</sup> for N data.
-
-So, we can say the bubble sort algorithm has efficiency or time complexity of N<sup>2</sup>.
+As we can see from the growth table the growth of steps as number of data N increases. It's approximately by N<sup>2</sup> for N data. So, we can say the bubble sort algorithm has efficiency or time complexity of N<sup>2</sup>.
