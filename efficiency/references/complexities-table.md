@@ -1,4 +1,4 @@
-# Different complexities table
+# Complexities table
 Functions are arranged in ascending order according to their efficiency.
 
 |  Pos  |      Function       |     Name     |  Pos  |     Function     |    name     |
