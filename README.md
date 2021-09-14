@@ -1,5 +1,5 @@
-# Data structure and algorithm hyperdrive
-Exploring data structure and algorithm in python. 
+# Data structures and algorithms hyperdrive
+Exploring simplified data structures and algorithms. Examples are written in __Python__ language. 
 
 > Main concept of the topics are language independent.
 
@@ -8,18 +8,19 @@ Exploring data structure and algorithm in python.
 ### [Data structures](data-structures/data-structures.md)
   - [x] [Array](data-structures/array.md)
   - [x] [Set](data-structures/set.md)
-  - [ ] Hash table
-  - [ ] Hip
+  - [ ] Heap
   - [ ] Stack
   - [ ] Queue
   - [ ] Linked list
-### Algorithm
+  - [ ] Hash table
+### Algorithms
   - [ ] Searching
     - [x] [Linear search](algorithms/linear-search.md)
     - [x] [Binary search](algorithms/binary-search.md)
   - [ ] Sorting
     - [x] [Bubble sort](algorithms/sorting/bubble-sort.md)
     - [x] [Selection sort](algorithms/sorting/selection-sort.md)
+    - [ ] Insertion sort
   - [x] Efficiency
     - [x] [Big O notation](efficiency/big-o-notation.md)
     - [x] [Time complexity](efficiency/time-complexity.md)
