@@ -32,8 +32,6 @@ def bubble_sort(array):
 
 print(bubble_sort([10, 30, 15, 11, 22]))
 ```
-> // TODO: add code explanation
-
 ## Efficiency of bubble sort
 
 With a array of 5 elements we'd need a total of:
@@ -48,7 +46,7 @@ As we got the comparisons count for the bubble sort. Let's look at the number of
 
 10 comparisons + 10 swaps = 20 steps for a 5 items array
 
-If we make a growth table with different data count for bubble sort, then the results would be:
+Efficiency comparison table:
 
 | Data count N | Number of steps | N<sup>2</sup> |
 | :----------: | :-------------: | :-----------: |
