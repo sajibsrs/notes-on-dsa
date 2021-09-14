@@ -27,9 +27,12 @@ Exploring data structure and algorithm in python.
 
 ## Installation
 > //TODO: Installing and updating `pyenv` with automated script
+
 > //TODO: Installing latest python version
+
 > //TODO: Setting global python version
   
 ## Setup coding environment
 > //TODO: Installing `vscode` (visual studio code)
+
 > //TODO:  Installing python extensions
