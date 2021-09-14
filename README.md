@@ -14,18 +14,22 @@ Exploring data structure and algorithm in python.
   - [ ] Queue
   - [ ] Linked list
 ### Algorithm
-  - [ ] Big O notation
-  - [ ] Time and space complexity
   - [ ] Searching
     - [x] [Linear search](algorithms/linear-search.md)
-    - [ ] [Binary search](algorithms/binary-search.md)
+    - [x] [Binary search](algorithms/binary-search.md)
   - [ ] Sorting
+    - [x] [Bubble sort](algorithms/sorting/bubble-sort.md)
+    - [x] [Selection sort](algorithms/sorting/selection-sort.md)
+  - [x] Efficiency
+    - [x] [Big O notation](efficiency/big-o-notation.md)
+    - [x] [Time complexity](efficiency/time-complexity.md)
+    - [x] [Space complexity](efficiency/space-complexity.md)
 
 ## Installation
-- Installing and updating `pyenv` with automated script
-- Installing latest python version
-- Setting global python version
+> //TODO: Installing and updating `pyenv` with automated script
+> //TODO: Installing latest python version
+> //TODO: Setting global python version
   
 ## Setup coding environment
-- Installing `vscode` (visual studio code)
-- Installing python extensions
+> //TODO: Installing `vscode` (visual studio code)
+> //TODO:  Installing python extensions
