@@ -11,7 +11,7 @@ Time complexity is most commonly estimated by counting the number of elementary 
 ## Space complexity
 Space complexity refers to determine how much memory an algorithm consumes during its runtime. It becomes a crucial factor where memory is limited. If an algorithm has an array of N items and that creates another array of the same size for its execution, the space complexity of that algorithm would be O(N), as the algorithm uses the same amount of additional memory as its input array.
 
-[Read more about space complexities](/efficiency/time-complexity.md)
+[Read more about space complexities](/efficiency/space-complexity.md)
 
 ## Different complexities
 |  Pos  |      Function       |     Name     |  Pos  |     Function     |    name     |
