@@ -9,6 +9,7 @@
 # bubble sort example in python
 
 def bubble_sort(array):
+    # set upper bound
     upper_bound = len(array) - 1
     done = False
 
@@ -16,9 +17,14 @@ def bubble_sort(array):
         done = True
 
         for i in range(upper_bound):
+            # compare current index with its next index
             if array[i] > array[i+1]:
+                # if current index is greater swap position
                 array[i], array[i+1] = array[i+1], array[i]
+                # we are not done yet
                 done = False
+        # after one iteration the largest item will go to the
+        # last position and we'll exclude it every time
         upper_bound -= 1
 
     return array
@@ -26,6 +32,8 @@ def bubble_sort(array):
 
 print(bubble_sort([10, 30, 15, 11, 22]))
 ```
+> // TODO: add code explanation
+
 ## Efficiency of bubble sort
 
 With a array of 5 elements we'd need a total of:
