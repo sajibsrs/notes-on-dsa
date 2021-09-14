@@ -26,13 +26,13 @@ Exploring data structure and algorithm in python.
     - [x] [Space complexity](efficiency/space-complexity.md)
 
 ## Installation
-> //TODO: Installing and updating `pyenv` with automated script
+> // TODO: Installing and updating `pyenv` with automated script
 
-> //TODO: Installing latest python version
+> // TODO: Installing latest python version
 
-> //TODO: Setting global python version
+> // TODO: Setting global python version
   
 ## Setup coding environment
-> //TODO: Installing `vscode` (visual studio code)
+> // TODO: Installing `vscode` (visual studio code)
 
-> //TODO:  Installing python extensions
+> // TODO:  Installing python extensions
