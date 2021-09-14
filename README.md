@@ -1,9 +1,9 @@
-# Data stcuture and algorithm hyperdrive
+# Data structure and algorithm hyperdrive
 Exploring data structure and algorithm in python. 
 
 > Main concept of the topics are language independent.
 
-## Topics
+## Table of contents
 
 ### [Data structures](data-structures/data-structures.md)
   - [x] [Array](data-structures/array.md)
@@ -14,9 +14,10 @@ Exploring data structure and algorithm in python.
   - [ ] Queue
   - [ ] Linked list
 ### Algorithm
-  - [ ] Big O notation and time/space complexity
+  - [ ] Big O notation
+  - [ ] Time and space complexity
   - [ ] Searching
-    - [ ] [Linear search](algorithms/linear-search.md)
+    - [x] [Linear search](algorithms/linear-search.md)
     - [ ] [Binary search](algorithms/binary-search.md)
   - [ ] Sorting
 
