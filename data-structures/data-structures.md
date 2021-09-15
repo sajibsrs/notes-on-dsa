@@ -12,4 +12,4 @@ Elements are stored and accessed in a non-linear order. Example:
 - Trees, Graphs
 
 ---
-[Read about data types](data-data-types.md)
+[Read about data types](data-types.md)
