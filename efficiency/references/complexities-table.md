@@ -1,11 +1,12 @@
 # Complexities table
 Functions are arranged in ascending order according to their efficiency.
 
-|  Pos  |      Function       |     Name     |  Pos  |     Function     |    name     |
-| :---: | :-----------------: | :----------: | :---: | :--------------: | :---------: |
-|   1   |        O(1)         |   Constant   |   7   | O(N<sup>2</sup>) |  Quadratic  |
-|   2   |       O(logN)       | Logarithmic  |   8   | O(N<sup>3</sup>) |    Cubic    |
-|   3   | O(log<sup>2</sup>N) |  Log-square  |   9   | O(N<sup>4</sup>) |   Quartic   |
-|   4   |     O(&Sqrt;N)      |    Root-N    |  10   | O(2<sup>N</sup>) | Exponential |
-|   5   |        O(N)         |    Linear    |  11   | O(e<sup>N</sup>) | Exponential |
-|   6   |      O(NlogN)       | Linearithmic |  12   |      O(N!)       | N-Factorial |
+| Position |  Complexity   | Name               | Example                                          |
+| :------: | :-----------: | ------------------ | ------------------------------------------------ |
+|    1     |       1       | Constant           | Adding and element to the front of a linked list |
+|    2     |     logN      | Logarithmic        | Finding and element in a sorted array            |
+|    3     |       N       | Linear             | Finding an element in an unsorted array          |
+|    4     |     NlogN     | Linear Logarithmic | Sorting n items by divide-and-conquer Merge sort |
+|    5     | N<sup>2</sup> | Quadratic          | Shortest path between two nodes in a graph       |
+|    6     | N<sup>3</sup> | Cubic              | Matrix multiplication                            |
+|    7     | 2<sup>N</sup> | Exponential        | The towers of hanoi problem                      |
