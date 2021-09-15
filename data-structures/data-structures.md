@@ -11,13 +11,5 @@ Elements are accessed in a sequential order but sequentially storing them is not
 Elements are stored and accessed in a non-linear order. Example:
 - Trees, Graphs
 
-### Abstract data types (ADT)
-
-## Different data structures
-- ### [Array](./data-structures/array.md)
-- ### [Set](./data-structures/set.md)
-- ### Hash table
-- ### Linked list
-- ### Hip
-- ### Stack
-- ### Queue
+---
+[Read about data types](data-data-types.md)
