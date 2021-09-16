@@ -40,7 +40,7 @@ while list.node is not None:
     print(list.node.data)
     list.node = list.node.next
 ```
-### Results for code above:
+#### Results for code above:
 ```language
 One
 Two
@@ -83,7 +83,7 @@ node2.next = node3
 
 list.print()
 ```
-### Results for code above:
+#### Results for code above:
 ```language
 One
 Two
@@ -133,7 +133,7 @@ list.set_first("First")
 
 list.print()
 ```
-### Results for code above:
+#### Results for code above:
 ```language
 First
 One
@@ -199,7 +199,7 @@ list.set_last("Last")
 
 list.print()
 ```
-### Results for code above:
+#### Results for code above:
 ```language
 First
 One
@@ -273,7 +273,7 @@ value = list.read(3)
 
 print(value)
 ```
-### Results for code above:
+#### Results for code above:
 ```language
 Three
 ```
