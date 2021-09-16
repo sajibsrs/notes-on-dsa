@@ -1,18 +1,18 @@
 # Data structures and algorithms hyperdrive
-Exploring data structures and algorithms. Examples are written in __Python__ language. 
+Exploring data structures and algorithms. 
 
-> Main concept of the topics are language independent.
 
-## Table of contents
+> Examples are written in __Python__ other languages will be added later. Main concepts are language independent.
+
+## Contents at a glance
 
 ### [Data structures](data-structures/data-structures.md)
   - [ ] Linear data structures
     - [x] [Array](data-structures/array.md)
     - [x] [Set](data-structures/set.md)
-    - [ ] Heap
     - [ ] Stack
     - [ ] Queue
-    - [ ] Linked list
+    - [ ] [Linked lists](data-structures/linked-lists/linked-lists.md)
     - [ ] Hash table
   - [ ] Non-linear data structures
     - [ ] Tree
@@ -30,9 +30,9 @@ Exploring data structures and algorithms. Examples are written in __Python__ lan
   - [x] Efficiency
     - [x] [Big O notation](performance/big-o-notation.md)
     - [x] [Time complexity](performance/time-complexity.md)
-    - [x] [Space complexity](performance/space-complexity.md)
+    - [ ] [Space complexity](performance/space-complexity.md)
 
-## Installation
+## Python installation
 > // TODO: Installing and updating __pyenv__ with automated script
 
 > // TODO: Installing latest python version
