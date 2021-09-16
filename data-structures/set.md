@@ -15,14 +15,26 @@ animals = ["dog", "cat", "cow", "goat", "sheep"]
 ## Searching
 > Required steps `best` = 1, when it's the first item
 
+[//]: # (add description)
+
 > Required steps `worst` = n, when it's the last item
+
+[//]: # (add description)
 
 ### Insertion
 > Required steps `best` = n + 1, when it's the last item
 
+[//]: # (add description)
+
 > Required steps `worst` = 2n + 1, when it's the first item
+
+[//]: # (add description)
 
 ### Deletetion
 > Required steps `best` = 1, when it's the last item
 
+[//]: # (add description)
+
 > Required steps `worst` = n, when it's the first item
+
+[//]: # (add description)

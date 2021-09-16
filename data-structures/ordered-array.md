@@ -1,0 +1,42 @@
+# Ordered array
+The `ordered array` is almost identical to the array. The only difference is ordered array has it's items sorted.
+
+An `ordered array` might look like this:
+
+```python
+numbers = [10, 20, 30, 40, 50]
+```
+
+## Required steps for specific operation
+
+### Reading
+> Required step = 1. Item in any position
+
+Reding from any position inside an array is `1` step.
+
+### Searching
+> Required steps best = 1, when it's the first item
+
+Searching for a specific item in side an array is `1` step if the item is the firt item of the array.
+
+> Required steps worst = n, when it's the last item
+
+Searching for an item inside an array is `n` step in the array if the item is the last item of that array. Where `n` is the number of _total item count_ inside that array.
+
+### Insertion
+> Required steps best = 1, when it's the last item
+
+[//]: # (add description)
+
+> Required steps worst = n + 1, when it's the first item
+
+[//]: # (add description)
+
+### Deletetion
+> Required steps best = 1, when it's the last item
+
+[//]: # (add description)
+
+> Required steps worst = n, when it's the first item
+
+[//]: # (add description)

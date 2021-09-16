@@ -8,26 +8,40 @@ animals = ["dog", "cat", "cow", "goat", "sheep"]
 The `size` of an array determined by how many items the array holds. In our case the length of __animals__ array is __5__.
 
 ## Index
-The `index` of an _array item_ is, it's position in the array expressed in number. Array index starts with the number `0`. So, the position of the first emelemnt/item of the array is `0`.
+The `index` of an _array item_ is, it's position in the array expressed in number. Array index starts with the number `0`. So, the position of the first element/item of the array is `0`.
 
 > Last item index in an array is always ( `n - 1` ). Where the size of array is `n` _( n represents any integer )_. As array index starts with `0`.
 
-## Required steps for specific operation on an array
+## Required steps for specific operation
 
 ### Reading
 > Required step = 1. Item in any position
 
+Reding from any position inside an array is `1` step.
+
 ### Searching
 > Required steps best = 1, when it's the first item
 
+Searching for a specific item in side an array is `1` step if the item is the first item of the array.
+
 > Required steps worst = n, when it's the last item
+
+Searching for an item inside an array is `n` step in the array if the item is the last item of that array. Where `n` is the number of _total item count_ inside that array.
 
 ### Insertion
 > Required steps best = 1, when it's the last item
 
+[//]: # (add description)
+
 > Required steps worst = n + 1, when it's the first item
 
-### Deletetion
+[//]: # (add description)
+
+### Deletion
 > Required steps best = 1, when it's the last item
 
+[//]: # (add description)
+
 > Required steps worst = n, when it's the first item
+
+[//]: # (add description)

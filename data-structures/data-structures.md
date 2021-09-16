@@ -11,5 +11,3 @@ Elements are accessed in a sequential order but sequentially storing them is not
 Elements are stored and accessed in a non-linear order. Example:
 - Trees, Graphs
 
----
-[Read about data types](data-types.md)
