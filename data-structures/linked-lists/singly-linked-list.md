@@ -24,21 +24,22 @@ class LinkedList:
     """ Linked list class"""
 
     def __init__(self):
-        self.node = None
+        self.first_node = None
 
 
 list = LinkedList()
-list.node = Node("One")
+list.first_node = Node("One")
 node2 = Node("Two")
 node3 = Node("Three")
 
-list.node.next = node2
+list.first_node.next = node2
 node2.next = node3
 
+current_node = list.first_node
 # print the node values
-while list.node is not None:
-    print(list.node.data)
-    list.node = list.node.next
+while current_node is not None:
+    print(current_node.data)
+    current_node = current_node.next
 ```
 #### Results for code above:
 ```language
@@ -63,10 +64,10 @@ class LinkedList:
     """ Linked list class"""
 
     def __init__(self):
-        self.node = None
+        self.first_node = None
 
     def print(self):
-        node = self.node
+        node = self.first_node
 
         while node is not None:
             print(node.data)
@@ -74,11 +75,11 @@ class LinkedList:
 
 
 list = LinkedList()
-list.node = Node("One")
+list.first_node = Node("One")
 node2 = Node("Two")
 node3 = Node("Three")
 
-list.node.next = node2
+list.first_node.next = node2
 node2.next = node3
 
 list.print()
@@ -106,15 +107,15 @@ class LinkedList:
     """ Linked list class"""
 
     def __init__(self):
-        self.node = None
+        self.first_node = None
 
     def set_first(self, data):
         node = Node(data)
-        node.next = self.node
-        self.node = node
+        node.next = self.first_node
+        self.first_node = node
 
     def print(self):
-        node = self.node
+        node = self.first_node
 
         while node is not None:
             print(node.data)
@@ -122,11 +123,11 @@ class LinkedList:
 
 
 list = LinkedList()
-list.node = Node("One")
+list.first_node = Node("One")
 node2 = Node("Two")
 node3 = Node("Three")
 
-list.node.next = node2
+list.first_node.next = node2
 node2.next = node3
 
 list.set_first("First")
@@ -157,21 +158,21 @@ class LinkedList:
     """ Linked list class"""
 
     def __init__(self):
-        self.node = None
+        self.first_node = None
 
     def set_first(self, data):
         node = Node(data)
-        node.next = self.node
-        self.node = node
+        node.next = self.first_node
+        self.first_node = node
 
     def set_last(self, data):
         node = Node(data)
 
-        if self.node is None:
-            self.node = node
+        if self.first_node is None:
+            self.first_node = node
             return
 
-        last = self.node
+        last = self.first_node
 
         while last.next:
             last = last.next
@@ -179,7 +180,7 @@ class LinkedList:
         last.next = node
 
     def print(self):
-        node = self.node
+        node = self.first_node
 
         while node is not None:
             print(node.data)
@@ -187,11 +188,11 @@ class LinkedList:
 
 
 list = LinkedList()
-list.node = Node("One")
+list.first_node = Node("One")
 node2 = Node("Two")
 node3 = Node("Three")
 
-list.node.next = node2
+list.first_node.next = node2
 node2.next = node3
 
 list.set_first("First")
