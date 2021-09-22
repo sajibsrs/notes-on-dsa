@@ -1,8 +1,10 @@
+---
+description: Simplified data structures and algorithms for hyper-drivers.
+---
+
 # Data structures and algorithms hyperdrive
-Exploring data structures and algorithms. 
 
-
-> Examples are written in __Python__ other languages will be added later. Main concepts are language independent.
+> Examples are written in __Python__ other languages will be added later (most probably **Go**). Main concepts are language independent.
 
 ## Contents at a glance
 
