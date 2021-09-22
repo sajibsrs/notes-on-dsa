@@ -9,27 +9,30 @@ description: Simplified data structures and algorithms for hyper-drivers.
 ## Contents at a glance
 
 ### [Data structures](data-structures/data-structures.md)
-  - [ ] Linear data structures
-    - [x] [Array](data-structures/array.md)
-    - [x] [Set](data-structures/set.md)
-    - [ ] Stack
-    - [ ] Queue
-    - [ ] [Linked lists](data-structures/linked-lists/linked-lists.md)
-    - [ ] Hash table
-  - [ ] Non-linear data structures
-    - [ ] Tree
-    - [ ] Graph
+
+#### Linear data structures
+  - ##### [Array](data-structures/array.md)
+  - [x] [Set](data-structures/set.md)
+  - [ ] Stack
+  - [ ] Queue
+  - [ ] [Linked lists](data-structures/linked-lists/linked-lists.md)
+  - [ ] Hash table
+#### Non-linear data structures
+  - [ ] Tree
+  - [ ] Graph
+
 ### Algorithms
-  - [x] Searching
+
+#### Searching
     - [x] [Linear search](algorithms/searching/linear-search.md)
     - [x] [Binary search](algorithms/searching/binary-search.md)
-  - [ ] Sorting
+#### Sorting
     - [x] [Bubble sort](algorithms/sorting/bubble-sort.md)
     - [x] [Selection sort](algorithms/sorting/selection-sort.md)
     - [x] [Insertion sort](algorithms/sorting/insertion-sort.md)
     - [ ] Quick sort
     - [ ] Merge sort
-  - [x] Efficiency
+#### Efficiency
     - [x] [Big O notation](performance/big-o-notation.md)
     - [x] [Time complexity](performance/time-complexity.md)
     - [ ] [Space complexity](performance/space-complexity.md)
