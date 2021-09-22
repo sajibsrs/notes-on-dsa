@@ -1,12 +1,12 @@
 # Bubble sort
->// TODO: add intro
+> // TODO: add intro
 
 ## How it works
->// TODO: add graphical explanation
+> // TODO: add graphical explanation
 
 ## Code example
 ```python
-# bubble sort example in python
+# bubble sort in python
 
 def bubble_sort(array):
     # set upper bound
@@ -46,7 +46,7 @@ As we got the comparisons count for the bubble sort. Let's look at the number of
 
 10 comparisons + 10 swaps = 20 steps for a 5 items array
 
-Efficiency comparison table:
+## Efficiency comparison table:
 
 | Data count N | Number of steps | N<sup>2</sup> |
 | :----------: | :-------------: | :-----------: |
@@ -57,4 +57,5 @@ Efficiency comparison table:
 |      40      |      1560       |     1600      |
 |      50      |      2450       |     2500      |
 
-As we can see from the growth table the growth of steps as number of data N increases. It's approximately by N<sup>2</sup> for N data. So, we can say the bubble sort algorithm has efficiency or time complexity of N<sup>2</sup>.
+For N amount of data step increment is approximately N<sup>2</sup>. 
+So, we can say the bubble sort algorithm has efficiency or time complexity of N<sup>2</sup>.
