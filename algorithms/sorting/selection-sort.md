@@ -6,7 +6,7 @@
 
 ## Code example
 ```python
-# selection sort example in python
+# selection sort in python
 
 def selection_sort(array):
 
@@ -29,10 +29,9 @@ print(selection_sort(array))
 
 ```
 ## Efficiency of selection sort
-
 > // TODO: add efficiency / time complexity
 
-Efficiency comparison table:
+## Efficiency comparison table:
 
 | N elements | Steps in bubble sort | Steps in selection sort |
 | :--------: | :------------------: | :---------------------: |
@@ -43,7 +42,7 @@ Efficiency comparison table:
 |     40     |         1560         |           819           |
 |     50     |         2450         |          1274           |
 
-For N items bubble sort take almost N<sup>2</sup> and for selection sort it's N<sup>2</sup>/2.
+For N items bubble sort takes almost N<sup>2</sup> steps and for selection sort it's N<sup>2</sup>/2.
 
 > Big O notation ignores constants.
 
