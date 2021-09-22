@@ -7,10 +7,11 @@ description: By definition an algorithm is the step-by-step unambiguous instruct
 ## Index
 
 ### Searching
-  * [x] [Linear search](searching/linear-search.md)
-  * [x] [Binary search](searching/binary-search.md)
+#### [Linear search](searching/linear-search.md)
+#### [Binary search](searching/binary-search.md)
+
 ### Sorting
 #### [Bubble sort](sorting/bubble-sort.md)
-  * [x] [Selection sort](sorting/selection-sort.md)
-  * [ ] Insertion sort
+#### [Selection sort](sorting/selection-sort.md)
+#### Insertion sort
 
