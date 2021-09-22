@@ -11,7 +11,8 @@ description: Simplified data structures and algorithms for hyper-drivers.
 ### [Data structures](data-structures/data-structures.md)
 
 #### Linear data structures
-  - ##### [Array](data-structures/array.md)
+
+##### [Array](data-structures/array.md)
   - [x] [Set](data-structures/set.md)
   - [ ] Stack
   - [ ] Queue
