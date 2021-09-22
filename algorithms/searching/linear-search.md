@@ -1,7 +1,6 @@
 # Linear search
-__Linear search__ is the simplest way of searching for something inside a _collection_. It simply compares a value with every items inside a collection. It searches in a _linear direction_, until it finds the desired value.
 
-[//]: # (add an example)
+**Linear search** is the simplest way of searching for something inside a _collection_. It simply compares a value with every items inside a collection. It searches in a _linear direction_, until it finds the desired value.
 
 ```python
 # linear search example in python
@@ -18,6 +17,7 @@ def linear_search(array, value):
 
 print(linear_search(animals, "cow"))
 ```
+
 > Output: 2
 
 ## Required steps for specific operation
@@ -29,3 +29,4 @@ print(linear_search(animals, "cow"))
 ### Worst case
 
 > It takes `n` steps to find the item, if the item is the last element of that collection.
+

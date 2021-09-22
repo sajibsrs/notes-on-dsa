@@ -1,13 +1,15 @@
 # Singly linked list
+
 Generally linked list refers to singly linked list. While arrays and linked list has many similarities, there are some big different under the hood. Items in a linked list is not contiguous block of memory like arrays. They can be scattered across different memory locations.
 
 > // TODO: add graphical explanation
 
-Items of linked lists are called nodes. Each node consists of __value__ and __link__ to the next node. __Link__ is the memory address of the next item. The last node has a __link__ to _NULL_ as it has no next element.
+Items of linked lists are called nodes. Each node consists of **value** and **link** to the next node. **Link** is the memory address of the next item. The last node has a **link** to _NULL_ as it has no next element.
 
 > A linked list's first and last node can be also referred as head and tail respectively.
 
 ## Creating linked list
+
 ```python
 # creating linked list in python
 
@@ -41,13 +43,17 @@ while current_node is not None:
     print(current_node.data)
     current_node = current_node.next
 ```
-#### Results for code above:
-```language
+
+### Results for code above:
+
+```text
 One
 Two
 Three
 ```
+
 ## Traversing linked list
+
 ```python
 # traversing linked list in python
 
@@ -84,13 +90,17 @@ node2.next = node3
 
 list.print()
 ```
-#### Results for code above:
-```language
+
+### Results for code above:
+
+```text
 One
 Two
 Three
 ```
+
 ## Insertion at the beginning of a linked list
+
 ```python
 # insertion at the beginning in python
 
@@ -134,14 +144,18 @@ list.set_first("First")
 
 list.print()
 ```
-#### Results for code above:
-```language
+
+### Results for code above:
+
+```text
 First
 One
 Two
 Three
 ```
+
 ## Insertion at the end of a linked list
+
 ```python
 # insertion at the end in python
 
@@ -200,15 +214,19 @@ list.set_last("Last")
 
 list.print()
 ```
-#### Results for code above:
-```language
+
+### Results for code above:
+
+```text
 First
 One
 Two
 Three
 Last
 ```
+
 ## Reading from a linked list
+
 ```python
 # reading from a linked list in python
 
@@ -274,13 +292,16 @@ value = list.read(3)
 
 print(value)
 ```
-#### Results for code above:
-```language
+
+### Results for code above:
+
+```text
 Three
 ```
 
 > // TODO: add search
-
+>
 > // TODO: add efficiency
-
+>
 > // TODO: add performance table
+

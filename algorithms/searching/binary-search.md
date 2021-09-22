@@ -4,8 +4,6 @@ Binary search is the search algorithm that eliminates half of possible items and
 
 > To perform binary search the array must be sorted.
 
-[//]: # (add an example)
-
 ```python
 sorted_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -30,8 +28,9 @@ def binary_search(array, value):
 
 binary_search(sorted_array, 4)
 ```
-> It took `3` steps to find value 4.
 
+> It took `3` steps to find value 4.
+>
 > For a array / list with `100` ordered items it would take `7` steps maximum to find a value.
 
 ## Required steps for specific operation
@@ -41,3 +40,4 @@ binary_search(sorted_array, 4)
 > If the guess is just right, then only `1` step is needed. Which is rare scenario.
 
 ### Worst case
+
