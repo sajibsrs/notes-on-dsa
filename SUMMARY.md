@@ -1,13 +1,12 @@
 # Table of contents
 
 * [Data structures and algorithms hyperdrive](README.md)
-* [Performance](performance/README.md)
+* [Big O notation](performance/README.md)
   * [References](performance/references/README.md)
     * [Complexities table](performance/references/complexities-table.md)
     * [Big O and logarithm](performance/references/logarithm.md)
   * [Space-complexity](performance/space-complexity.md)
   * [Time complexity](performance/time-complexity.md)
-  * [Big O notation](performance/big-o-notation.md)
 * [Data-structures](data-structures/README.md)
   * [Linked-lists](data-structures/linked-lists/README.md)
     * [Singly linked list](data-structures/linked-lists/singly-linked-list.md)
