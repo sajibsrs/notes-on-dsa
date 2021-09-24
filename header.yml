@@ -1,10 +1,17 @@
 ---
 title: Data Structures & Algorithms Hyperdrive
+subject: Data Structures & Algorithms
 subtitle: Simplified data structures and algorithms for hyper-drivers
+keywords:
+  - data structures
+  - algorithms
+  - programming
 author: Sajidur Rahman
 rights: MIT License
 lang: en-US
 date: 2021
+
+documentclass: book
 
 papersize: a4
 dpi: 72
@@ -12,10 +19,13 @@ dpi: 72
 toc: true
 toc-title: Index
 
-mainfont: Noto Sans
-monofont: Noto Sans Mono
+include-before: It's never too late for learning. You can always start in any point of your life.
 
-fontsize: 11pt
+mainfont: Noto Sans
+monofont: Fira Code
+
+fontsize: 10pt
+linestretch: 1.2
 numbersections: true
 
 pagestyle: headings
@@ -31,6 +41,6 @@ hyperrefoptions:
 
 bibliography: true
 # --pdf-engine=xelatex
+header-includes:
+- \usepackage[margins=raggedright]{floatrow}
 ---
-
-\pagebreak
