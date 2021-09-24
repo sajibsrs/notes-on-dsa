@@ -38,14 +38,14 @@ print(insertion_sort([10, 30, 15, 11, 22]))
 
 ## Efficiency comparison table:
 
-| N elements | Steps in bubble sort | Steps in selection sort | Steps in insertion sort |
-| :---: | :---: | :---: | :---: |
-| 5 | 20 | 14 | 10 |
-| 10 | 90 | 45 | 45 |
-| 20 | 380 | 209 | 190 |
-| 30 | 870 | 464 | 435 |
-| 40 | 1560 | 819 | 780 |
-| 50 | 2450 | 1274 | 1225 |
+| $n$ elements | Steps in bubble sort | Steps in selection sort | Steps in insertion sort |
+| :----------: | :------------------: | :---------------------: | :---------------------: |
+|      5       |          20          |           14            |           10            |
+|      10      |          90          |           45            |           45            |
+|      20      |         380          |           209           |           190           |
+|      30      |         870          |           464           |           435           |
+|      40      |         1560         |           819           |           780           |
+|      50      |         2450         |          1274           |          1225           |
 
-Insertion sort also has an efficiency of N2.
+Insertion sort also has an efficiency of $n^2$.
 
