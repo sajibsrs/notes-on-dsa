@@ -40,7 +40,16 @@ hyperrefoptions:
 - pdfwindowui
 
 bibliography: true
-# --pdf-engine=xelatex
+
 header-includes:
-- \usepackage[margins=raggedright]{floatrow}
+  - \usepackage[margins=raggedright]{floatrow}
+  - \usepackage{framed}
+  - \usepackage{xcolor}
+
+# --pdf-engine=xelatex
 ---
+
+\let\oldquote=\quote
+\let\endoldquote=\endquote
+\colorlet{shadecolor}{black!5}
+\renewenvironment{quote}{\begin{shaded*}\begin{oldquote}}{\end{oldquote}\end{shaded*}}
