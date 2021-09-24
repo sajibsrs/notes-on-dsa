@@ -36,30 +36,30 @@ def bubble_sort(array):
 print(bubble_sort([10, 30, 15, 11, 22]))
 ```
 
-## Efficiency of bubble sort
+## Time complexity of bubble sort
 
 With a array of 5 elements we'd need a total of:
 
-4 + 3 + 2 + 1 = 10 comparisons
+$4 + 3 + 2 + 1 = 10$ comparisons
 
 For N number of elements that is:
 
-\(N - 1\) + \(N - 2\) + \(N - 3\) ... + 1 comparisons
+$(n - 1) + (n - 2) + (n - 3) ... + 1$ comparisons
 
-As we got the comparisons count for the bubble sort. Let's look at the number of swaps we need. For the worst case scenario we'd need swaps for every comparison, when the array component orders are exactly the opposite of a sorted array. For the worst case, swaps count would be 10 for an array with 5 elements. That is same as the swap count. So, the total steps for bubble sort would be:
+As we got the comparisons count for the bubble sort. Let's look at the number of swaps we need. For the worst case scenario we'd need swap for every comparisons when the array component orders are exactly the opposite of a sorted array. In that case, swaps count would be 10 for an array with 5 elements. That is same as the swap count. So, the total steps for bubble sort would be:
 
-10 comparisons + 10 swaps = 20 steps for a 5 items array
+$10$ comparisons $+10$ swaps $=20$ steps for a $5$ items array
 
-## Efficiency comparison table:
+## Time complexity comparison table:
 
-| Data count N | Number of steps | N2 |
-| :---: | :---: | :---: |
-| 5 | 20 | 25 |
-| 10 | 90 | 100 |
-| 20 | 380 | 400 |
-| 30 | 870 | 900 |
-| 40 | 1560 | 1600 |
-| 50 | 2450 | 2500 |
+| Data count $n$ | Number of steps | $n^2$ |
+| -------------- | --------------- | ----- |
+| 5              | 20              | 25    |
+| 10             | 90              | 100   |
+| 20             | 380             | 400   |
+| 30             | 870             | 900   |
+| 40             | 1560            | 1600  |
+| 50             | 2450            | 2500  |
 
-For N amount of data step increment is approximately N2. So, we can say the bubble sort algorithm has efficiency or time complexity of N2.
+For $n$ amount of data step increment is approximately $n^2$. So, we can say the bubble sort algorithm has efficiency or time complexity of $n^2$.
 
