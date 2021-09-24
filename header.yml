@@ -19,7 +19,7 @@ dpi: 72
 toc: true
 toc-title: Index
 
-include-before: It's never too late for learning. You can always start in any point of your life.
+# include-before: Dedicated to
 
 mainfont: Noto Sans
 monofont: Fira Code
@@ -43,13 +43,9 @@ bibliography: true
 
 header-includes:
   - \usepackage[margins=raggedright]{floatrow}
-  - \usepackage{framed}
-  - \usepackage{xcolor}
+  - \usepackage{tcolorbox}
 
 # --pdf-engine=xelatex
 ---
-
-\let\oldquote=\quote
-\let\endoldquote=\endquote
-\colorlet{shadecolor}{black!5}
-\renewenvironment{quote}{\begin{shaded*}\begin{oldquote}}{\end{oldquote}\end{shaded*}}
+\newtcolorbox{srsquote}{colback=black!5, colframe=black!5}
+\renewenvironment{quote}{\begin{srsquote}}{\end{srsquote}}
