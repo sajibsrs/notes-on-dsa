@@ -12,12 +12,11 @@ lang: en-US
 date: 2021
 
 documentclass: book
-
 papersize: a4
 dpi: 72
 
-toc: true
-toc-title: Index
+# toc: true
+# toc-title: Index
 
 # include-before: Dedicated to
 
@@ -42,10 +41,15 @@ hyperrefoptions:
 bibliography: true
 
 header-includes:
+  - \usepackage{hyperref}
   - \usepackage[margins=raggedright]{floatrow}
   - \usepackage{tcolorbox}
 
 # --pdf-engine=xelatex
 ---
+\currentpdfbookmark{Book contents}{toc}
+
+\tableofcontents
+
 \newtcolorbox{srsquote}{colback=black!5, colframe=black!5}
 \renewenvironment{quote}{\begin{srsquote}}{\end{srsquote}}
