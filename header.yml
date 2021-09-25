@@ -23,7 +23,7 @@ dpi: 72
 mainfont: Noto Sans
 monofont: Fira Code
 
-fontsize: 10pt
+fontsize: 9pt
 linestretch: 1.2
 numbersections: true
 
