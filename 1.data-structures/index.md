@@ -10,11 +10,14 @@ Data types that are defined by system are called primitive data types. Int, floa
 
 ### User-defined data types
 
-For many situations only primitive data types are not enough. Most programming languages allow the users to define their own custom data types, which is called user-defined data types. Structures and classes are example of user-defined data types.
+For many situations only primitive data types are not enough. Most programming languages allow the users to define their own custom data types, which is called user-defined data types. Structures ( *struct* ) and classes are example of user-defined data types.
 
 ### Abstract data types (ADT)
 
-We combine the data structures with their operations to simplify the process of solving problem which is called Abstract data types (ADT). Two parts of ADT: 1. Declaration of data 2. Declaration of operations
+Abstract data type is a data type which has structures with their operations to simplify the process of solving problem. Two parts of ADT: 
+
+1. Declaration of data 
+2. Declaration of operations
 
 ## Data structures
 
@@ -24,10 +27,17 @@ Data structure is a particular way of storing and organizing data, that can be u
 
 Elements are accessed in a sequential order but sequentially storing them is not essential. Example:
 
-* Array, Set, Hash map, Linked list, Stack, Queue.
+* Array, Set, Hash map or Hash table, Linked list, Stack, Queue.
 
 ### Non-linear data structures
 
 Elements are stored and accessed in a non-linear order. Example:
 
-* Tree, Graph
+* Tree, Heap, Graph
+
+### Node and node based data structures
+Node is the building block for many data structures. Which is, the fundamental elements of node based structures. Some of the node based structures are:
+
+* Linked lists
+* Trees
+* Graphs
