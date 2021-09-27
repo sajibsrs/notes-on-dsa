@@ -22,21 +22,23 @@ dpi: 72
 
 mainfont: Noto Sans
 monofont: Fira Code
+monofontoptions:
+  - Scale=0.9
 
-fontsize: 9pt
+fontsize: 10pt
 linestretch: 1.2
 numbersections: true
 
 pagestyle: headings
 
 geometry:
-- top=30mm
-- left=20mm
-- heightrounded
+  - top=30mm
+  - left=20mm
+  - heightrounded
 
 hyperrefoptions:
-- linktoc=all
-- pdfwindowui
+  - linktoc=all
+  - pdfwindowui
 
 bibliography: true
 
@@ -51,5 +53,5 @@ header-includes:
 
 \tableofcontents
 
-\newtcolorbox{srsquote}{colback=black!5, colframe=black!5}
+\newtcolorbox{srsquote}{colback=black!5, colframe=black!5, arc=5mm, fontupper=\small}
 \renewenvironment{quote}{\begin{srsquote}}{\end{srsquote}}
