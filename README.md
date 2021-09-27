@@ -6,7 +6,7 @@
 
 ### Linear data structures
 
-#### Array
+* [x] Array
 * [x] Set
 * [ ] Stack
 * [ ] Queue
@@ -29,8 +29,6 @@
 * [x] Bubble sort
 * [x] Selection sort
 * [x] Insertion sort
-* [ ] Quick sort
-* [ ] Merge sort
 
 ### Performance
 
