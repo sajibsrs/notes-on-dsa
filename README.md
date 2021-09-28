@@ -1,4 +1,4 @@
-# Data structures and algorithms
+# Book topics and progress
 
 > Examples are written in **Python**. **Go** examples will be added later. Main concepts are language independent.
 
@@ -16,6 +16,7 @@
 ### Non-linear data structures
 * [ ] Tree
 * [ ] Graph
+* [ ] Heap
 
 ## Algorithms
 
@@ -34,7 +35,7 @@
 
 * [x] Big O notation
 * [x] Time complexity
-* [ ] Space complexity
+* [x] Space complexity
 
 ## Python installation
 
