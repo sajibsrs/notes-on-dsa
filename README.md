@@ -37,8 +37,15 @@
 * [x] Time complexity
 * [x] Space complexity
 
-## Python installation
+## Pandoc installation and configuration
+TODO: Installing pandoc
 
+TODO: Configuring pandoc
+
+TODO: Producing PDF
+
+
+## Python installation
 TODO: Installing and updating **pyenv** with automated script
 
 TODO: Installing latest python version
@@ -46,7 +53,6 @@ TODO: Installing latest python version
 TODO: Setting global python version
 
 ## Setting up coding environment
-
 TODO: Installing **vscode** (visual studio code)
 
 TODO: Installing python extensions
