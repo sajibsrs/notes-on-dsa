@@ -1,4 +1,4 @@
-# Book topics and progress
+# Book topics and progress (book)
 
 > Examples are written in **Python**. **Go** examples will be added later. Main concepts are language independent.
 
